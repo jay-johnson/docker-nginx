@@ -37,7 +37,7 @@ Here are the available environment variables that are used by the start_containe
 Getting Started
 ---------------
 
-By default this container exposes ports: ``80`` and ``443`` from the container to the host OS. For development purposes, I usually have this container using host ports 81 and 444 so to prevent collisions with existing apache or nginx services.
+By default this container exposes ports: ``80`` and ``443`` from the container to the host OS. For development purposes, I usually have this container using host ports 82 and 444 so to prevent collisions with existing apache or nginx services.
 
 Building
 ~~~~~~~~
