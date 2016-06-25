@@ -37,12 +37,12 @@ Here are the available environment variables that are used by the start_containe
 Getting Started
 ---------------
 
-By default this container exposes ports: ``80`` and ``443`` from the container to the host OS. For development purposes, I usually have this container using host ports 82 and 444 so to prevent collisions with existing apache or nginx services.
+By default this container exposes ports: ``80`` and ``443`` from the container to the host OS. For development purposes, I usually have this container using host ports 82 and 444 to prevent collisions with existing apache or nginx services.
 
 Building
 ~~~~~~~~
 
-To build the container you can run build using the properties.sh_ file: 
+To build the container you can run ``build.sh`` that automatically sources the properties.sh_ file: 
 
 ::
 
@@ -117,6 +117,8 @@ To test the container is working try wget-ting the index.html file and confirm t
 
     2016-06-24 13:29:38 (264 MB/s) - ‘index.html’ saved [13534/13534]
     $
+
+.. note:: The example above is using port **82** for development and documentation purposes instead of port **80**
 
 
 Stop the Container
