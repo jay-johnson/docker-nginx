@@ -122,7 +122,7 @@ To test the container is working try wget-ting the index.html file and confirm t
 Stop the Container
 ~~~~~~~~~~~~~~~~~~
 
-To stop the conatiner run:
+To stop the container run:
 
 ::
 
