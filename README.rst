@@ -149,7 +149,7 @@ The nginx license: http://nginx.org/LICENSE
 .. _docker compose: https://docs.docker.com/compose/
 .. _repository: https://github.com/jay-johnson/docker-nginx
 .. _jayjohnson/nginx : https://hub.docker.com/r/jayjohnson/nginx/
-.. _start.sh: https://github.com/jay-johnson/docker-nginx/blob/master/containerfiles/start.sh
+.. _start.sh: https://github.com/jay-johnson/docker-nginx/blob/master/start.sh
 .. _start_container.sh: https://github.com/jay-johnson/docker-nginx/blob/master/containerfiles/start-container.sh
 .. _base nginx.conf : https://github.com/jay-johnson/docker-nginx/blob/master/containerfiles/base_nginx.conf
 .. _derived nginx.conf : https://github.com/jay-johnson/docker-nginx/blob/master/containerfiles/derived_nginx.conf
