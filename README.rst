@@ -21,7 +21,7 @@ I built this container so I could have an extensible nginx container that could 
 Environment Variables
 ~~~~~~~~~~~~~~~~~~~~~
 
-Here are the available environment variables that are used by the start_container.sh_ script as the container starts up. These are used by `docker compose`_ for  
+Here are the available environment variables that are used by the start_container.sh_ script as the container starts up. By using environment variables to drive one-time install/configuration behaviors this container can be used with `docker compose`_ for other technologies that I want to use with nginx. I wrote this `blog post`_ if you want to learn more.
 
 +----------------------------------------+--------------------------------------------------------------------+-------------------------------------------------------------+ 
 | Variable Name                          | Purpose                                                            | Default Value                                               | 
@@ -151,8 +151,9 @@ The nginx license: http://nginx.org/LICENSE
 .. _jayjohnson/nginx : https://hub.docker.com/r/jayjohnson/nginx/
 .. _start.sh: https://github.com/jay-johnson/docker-nginx/blob/master/start.sh
 .. _start_container.sh: https://github.com/jay-johnson/docker-nginx/blob/master/containerfiles/start-container.sh
-.. _base nginx.conf : https://github.com/jay-johnson/docker-nginx/blob/master/containerfiles/base_nginx.conf
-.. _derived nginx.conf : https://github.com/jay-johnson/docker-nginx/blob/master/containerfiles/derived_nginx.conf
-.. _properties.sh : https://github.com/jay-johnson/docker-nginx/blob/master/properties.sh
+.. _base nginx.conf: https://github.com/jay-johnson/docker-nginx/blob/master/containerfiles/base_nginx.conf
+.. _derived nginx.conf: https://github.com/jay-johnson/docker-nginx/blob/master/containerfiles/derived_nginx.conf
+.. _properties.sh: https://github.com/jay-johnson/docker-nginx/blob/master/properties.sh
+.. _blog post: http://www.levvel.io/blog-post/a-docker-container-pattern-compose-configuration
 
 
